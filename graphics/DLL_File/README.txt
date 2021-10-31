@@ -1,0 +1,1 @@
+If you are executing the code and find there are some DLL files missing, just copy all the dll file above to graphics\GraphicsPad\Debug. And the problem will be solved.

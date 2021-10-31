@@ -3,9 +3,35 @@
   <ItemGroup>
     <ClCompile Include="Mainer.cpp" />
     <ClCompile Include="MeGlWindow.cpp" />
-    <ClCompile Include="ShaderCode.cpp" />
+    <ClCompile Include="ShapeFactory.cpp" />
+    <ClCompile Include="Camera.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MeGlWindow.h" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="ShapeData.h" />
+    <ClInclude Include="ShapeFactory.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="cyCore.h" />
+    <ClInclude Include="cyPoint.h" />
+    <ClInclude Include="cyTriMesh.h" />
+    <ClInclude Include="Vertex_data.h" />
+    <ClInclude Include="Mesh.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VertexShader.glsl" />
+    <None Include="FragmentShader.glsl" />
+    <None Include="CubeLightVertexShader.glsl" />
+    <None Include="CubeLightFragmentShader.glsl" />
+    <None Include="CubeMapFragmentShader.glsl" />
+    <None Include="CubeMapVertexShader.glsl" />
+    <None Include="ShadowMapVertexShader.glsl" />
+    <None Include="ShadowMapFragmentShader.glsl" />
+    <None Include="PlaneShadowVertexShader.glsl" />
+    <None Include="PlaneShadowFragmentShader.glsl" />
+    <None Include="PBRFragmentShader.glsl" />
+    <None Include="PBRVertexShader.glsl" />
+    <None Include="StoneShadowFragmentShader.glsl" />
+    <None Include="StoneShadowVertexShader.glsl" />
   </ItemGroup>
 </Project>
